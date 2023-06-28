@@ -1,0 +1,4 @@
+RewriteEngine On
+
+
+RewriteRule ^API/([-0-9a-z]*),([-0-9a-z]*)$ API.php?num1=$1&num2=$2 [NC,L]

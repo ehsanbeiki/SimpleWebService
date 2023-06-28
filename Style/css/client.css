@@ -1,0 +1,99 @@
+   @font-face {
+    font-family: YekanFanum;
+    src: url("../fonts/YekanFaNum.woff");
+  }
+
+body
+{
+    background-color: black;
+    direction: rtl;
+    margin: 0px;
+    background-image: url(../png/Bacground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Content
+{
+    width: 35%;
+    margin: auto;
+    margin-top: 5%;
+    color: #ecb365cf;
+    text-align:center;
+    /* border-color: #ecb365;
+    border-width: 2px;
+    border-radius: 35px;
+    border-style: solid; */
+    border-color: #999999;
+    border-width: 1.5px;
+    border-radius: 25px;
+    border-style: solid;
+    border-top: none;
+    border-bottom: none;
+    background-color:none;
+    font-family: YekanFanum;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.Form input{
+    direction: ltr;
+    padding: 12px;
+    margin: 3px;
+    width: 200px;
+    background-color: rgba(233, 233, 233, 0.82);
+    border: none;border-radius: 5px;
+}
+.Form label{
+   
+    margin-top: 50%;
+}
+#output{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+.WebService{
+    direction: ltr;
+    padding: 12px;
+    margin: auto;
+    width: 80%;
+    font-size: 16px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border: none;border-radius: 5px;    
+}
+.clickBtn
+{
+    display: block;
+    width: 20%;
+    margin: auto;
+    margin-bottom: 5%;
+    color: #ecb365;
+    text-align:center;
+    border-color: #ecb365;
+    border-width: 2px;
+    border-radius: 9px;
+    border-style: solid;
+    background-color: black;
+    font-family: YekanFanum;
+    font-size: 15px;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+
+}
+.clickBtn:hover
+{
+    color: black;
+    border: 2px solid #ecb365;
+    background-color: #ecb365;
+
+
+}
+.Form input:focus,textarea:focus {
+    outline: none !important;
+    border:1px solid red;
+    box-shadow: 0 0 10px #719ECE;
+    background-color: white;
+  }
+
+
